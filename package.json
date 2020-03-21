@@ -1,0 +1,29 @@
+{
+  "name": "NodeExpressHandlebars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "lint": "eslint **/*.js --quiet",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedjaaaaa/NodeExpressHandlebars.git"
+  },
+  "author": "Pedja Vasic",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.4",
+    "sequelize": "^4.41.2",
+    "eslint": "^4.19.1"
+  },
+  "bugs": {
+    "url": "https://github.com/pedjaaaaa/NodeExpressHandlebars/issues"
+  },
+  "homepage": "https://github.com/pedjaaaaa/NodeExpressHandlebars#readme"
+}
